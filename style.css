@@ -1,0 +1,31 @@
+﻿
+h1 {
+    color:fuchsia;
+    background-color:black
+}
+h2 {
+    color:yellow;
+    background-color:black
+}
+h3 {
+    color:fuchsia;
+    background-color:black
+}
+h4 {
+    color:red;
+    background-color:black
+}
+p {
+    color:fuchsia;
+    background-color:black;
+    font-family:tahoma;
+}
+#montero {
+    color:green;
+    background-color:black;
+    font-family:tahoma;
+}
+
+input{
+background-color:lightgreen;
+}
