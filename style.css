@@ -1,23 +1,17 @@
-h1 {
-    color: blanchedalmond;
-    background-color: blueviolet;
+* {
+    margin: 0;
+    padding: 10;
 }
 
-h2 {
-    color: blue;
-    background-color: darkkhaki;
+body {
+    background-color: green;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 40px;
+
 }
 
-p {
-    color: brown;
-    background-color: aqua;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#parrafo1 {
-    color:black;
-    background-color:sandybrown;
-    font-family:'Century Gothic'
-}
 input {
     color: black; 
     background-color:tomato;
@@ -25,4 +19,11 @@ input {
 button {
     color:black;
     background-color:yellowgreen;
+    border: 2rem;
+    padding: 1.5rem; 
+    
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer; 
+    font-size: 26px;
 }
