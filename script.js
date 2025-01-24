@@ -25,7 +25,20 @@ function Escribir(numBoton) {
     if (segundotexto) {
         txtNum2.value += numBoton;
     }
+
+}   
+function borrarUltimo() {
+    if (!segundotexto) {
+        txtNum1.value = txtNum1.value.slice(0, -1);
+    }   
+
+    if (segundotexto) {
+        txtNum2.value = txtNum2.value.slice(0, -1);
+    }
 }
+
+
+
 function operacion() {
     switch (operador) {
         case "+":
